@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="reportconfig.ReportNGListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="common.MethodListener"/>
+    <listener class-name="common.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Run Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hrm.admin.LiveHRM">
+        <methods>
+          <include name="TC02_AddEmployee"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC03_SortLastNameEmployee"/>
+          <include name="TC01_LoginByAdmin"/>
+        </methods>
+      </class> <!-- com.hrm.admin.LiveHRM -->
+    </classes>
+  </test> <!-- Run Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

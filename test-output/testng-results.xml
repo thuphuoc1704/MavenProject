@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-04T14:16:49Z" name="Suite" finished-at="2022-04-04T14:17:09Z" duration-ms="20300">
+    <groups>
+    </groups>
+    <test started-at="2022-04-04T14:16:49Z" name="Run Chrome" finished-at="2022-04-04T14:17:09Z" duration-ms="20300">
+      <class name="com.hrm.admin.LiveHRM">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.hrm.admin.LiveHRM@5246a3b3]" started-at="2022-04-04T14:16:49Z" name="beforeClass" finished-at="2022-04-04T14:16:58Z" duration-ms="8617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC01_LoginByAdmin()[pri:0, instance:com.hrm.admin.LiveHRM@5246a3b3]" started-at="2022-04-04T14:16:58Z" name="TC01_LoginByAdmin" finished-at="2022-04-04T14:17:03Z" duration-ms="5276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginByAdmin -->
+        <test-method signature="TC02_AddEmployee()[pri:0, instance:com.hrm.admin.LiveHRM@5246a3b3]" started-at="2022-04-04T14:17:03Z" name="TC02_AddEmployee" finished-at="2022-04-04T14:17:09Z" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_AddEmployee -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.hrm.admin.LiveHRM@5246a3b3]" started-at="2022-04-04T14:17:09Z" name="afterClass" finished-at="2022-04-04T14:17:09Z" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.hrm.admin.LiveHRM -->
+    </test> <!-- Run Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
